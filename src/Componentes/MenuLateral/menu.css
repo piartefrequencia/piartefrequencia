@@ -1,0 +1,38 @@
+#botaoMenu {
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    padding: 5px 10px;
+  }
+  
+  #menuLateral {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+  }
+  
+  #menuLateral a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #menuLateral a:hover {
+    background-color: #575757;
+  }
