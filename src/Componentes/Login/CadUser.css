@@ -1,0 +1,85 @@
+.usuario-container {
+    max-width: 600px;
+    margin: 80px auto;
+    background-color: #222;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b89720;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+  }
+  
+  .botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn-salvar {
+    background-color: #b89720;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .btn-salvar:hover {
+    background-color: #daa520;
+  }
+  
+  .btn-alterar {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .btn-alterar:hover {
+    background-color: #4682b4;
+  }
+  
+  .btn-voltar {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .btn-voltar:hover {
+    background-color: #777;
+  }
+  

@@ -1,31 +1,33 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: url('C:\Users\paulo\Desktop\REACTAPP\artefrequencia\src\Styles\Assets\img\Fundo_0002.jpg') no-repeat center center fixed;
+  background: url('C:\Users\paulo\Desktop\REACTAPP\artefrequencia\public\Assets\img\Fundo_0004.jpg') no-repeat center center fixed;
   background-size: cover;  
 }
 
-header {
-  background-color: rgb(0, 0, 0);
-  color: white;
+main h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  flex: 500;
+  color: rgb(0, 0, 0);
+  padding: 20px;
   text-align: center;
-  padding: 1em;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255);
 }
 
-header img {
-  max-width: 500px;
-  height: auto;
-}
-
-main {
+main p {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  border-width: 2cm;
   flex: 1;
   color: rgb(0, 0, 0);
-  padding: 50px;
+  padding: 1px;
   text-align: center;
 }
 

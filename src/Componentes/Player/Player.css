@@ -1,0 +1,31 @@
+/* ==== PLAYER EMBUTIDO NO FOOTER ==== */
+.footer-player {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #222;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.footer-player .player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-player .player button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-player .player button:hover {
+  color: #f1a71e;
+}
+
+.footer-player .player input[type="range"] {
+  width: 100px;
+}

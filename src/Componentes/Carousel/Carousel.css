@@ -1,0 +1,9 @@
+.carousel {
+    width: 900px;
+    height: 550px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  }

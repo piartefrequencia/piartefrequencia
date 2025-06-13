@@ -1,11 +1,14 @@
 import React from 'react';
-import '../../Styles/styles.css';
-import logo from '../../Assets/img/ARTE_E_FREQUENCIA_TESTE.png';
+import './Cabecalho.css'; // Arquivo CSS, se desejar estilizar separado
 
-function Cabecalho () {
+function Cabecalho() {
   return (
     <header className="cabecalho">
-      <img src="Assets/img/ARTE E FREQUENCIA TESTE.png" alt="Logo do Site" />
+      <img 
+        src="Assets/img/ARTE_E_FREQUENCIA_TESTE.png" 
+        alt="Logo do Arte & Frequência" 
+        className="logo"
+      />
     </header>
   );
 }

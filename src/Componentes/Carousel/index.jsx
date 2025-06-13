@@ -1,11 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../../Styles/styles.css';
-import img1 from '../../Assets/img/HVL_0001.jpeg';
-import img2 from '../../Assets/img/HVL_0002.jpeg';
-import img3 from '../../Assets/img/HVL_0003.jpeg';
-import img4 from '../../Assets/img/HVL_0004.jpeg';
+import './Carousel.css';
 
 function Carousel() {
   return (
@@ -18,19 +14,19 @@ function Carousel() {
           <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
           <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
         </div>
-
+      
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={img1}  className="d-block w-100" alt="Imagem 1" />
+            <img src="Assets/img/HVL_0003.jpeg" alt="Imagem_1" className="d-block w-100"/>
           </div>
           <div className="carousel-item">
-            <img src={img2}  className="d-block w-100" alt="Imagem 2" />
+            <img src="Assets/img/HVL_0002.jpeg" alt="Imagem_2" className="d-block w-100"/>
           </div>
           <div className="carousel-item">
-            <img src={img3} className="d-block w-100" alt="Imagem 3" />
+            <img src="Assets/img/HVL_0001.jpeg" alt="Imagem_3" className="d-block w-100"/>
           </div>
           <div className="carousel-item">
-            <img src={img4}  className="d-block w-100" alt="Imagem 4" />
+            <img src="Assets/img/HVL_0004.jpeg" alt="Imagem_4" className="d-block w-100"/>
           </div>
         </div>
 

@@ -2,59 +2,25 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/Assets/img/favicon_.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
+    <!--<meta
       name="description"
       content="Web site created using create-react-app"
-    />
-    <!--<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />-->
-   
+    />-->
     <title>PI ARTE FREQUENCIA</title>
-
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <img src="Assets/img/ARTE E FREQUENCIA TESTE.png" alt="Logo do Site" />
-
+   
     <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 />
+</div>
 
-<button onClick={musicaAnterior}>
-  <i className="fas fa-backward"></i>
-</button>
-
-<button onClick={togglePlayPause}>
-  <i id="playPauseIcon" className="fas fa-play"></i>
-</button>
-
-<button onClick={pararAudio}>
-  <i className="fas fa-stop"></i>
-</button>
-
-<button onClick={proximaMusica}>
-  <i className="fas fa-forward"></i>
-</button>
-
-<button onClick={toggleMute}>
-  <i id="muteIcon" className="fas fa-volume-up"></i>
-</button>
-
-<input
-  id="volumeSlider"
-  type="range"
-  min="0"
-  max="1"
-  step="0.01"
-  onInput={(e) => (document.getElementById('bg-audio').volume = e.target.value)}
-/>
-
-    
+  
   </body>
 </html>
