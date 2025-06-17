@@ -5,7 +5,7 @@ function Cabecalho() {
   return (
     <header className="cabecalho">
       <img 
-        src="Assets/img/ARTE_E_FREQUENCIA_TESTE.png" 
+        src="Assets/img/Logo_AF.png" 
         alt="Logo do Arte & Frequência" 
         className="logo"
       />

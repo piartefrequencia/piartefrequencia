@@ -23,7 +23,7 @@
 }
 
 .footer-player .player button:hover {
-  color: #f1a71e;
+  color: #b89720;
 }
 
 .footer-player .player input[type="range"] {
@@ -31,5 +31,5 @@
 }
 
 .btn-volume svg {
-  color:#f1a71e;
+  color:#b89720;
 }

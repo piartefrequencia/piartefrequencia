@@ -162,7 +162,7 @@ footer {
 
 .volumeSlider {
   width: 100px;
-  accent-color: rgb(142, 102, 23);
+  accent-color: #b89720;
   cursor: pointer;
   height: 24px;
 }
@@ -183,7 +183,7 @@ footer {
   margin: 20px auto;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: rgb(170, 130, 26);
+  background-color: #b89720;
   /*background-image: url('img/fundo_0001.jpg');*/
   background-size: cover;
   background-position: center;
@@ -215,7 +215,7 @@ footer {
     top: 20px;
     left: 20px;
     background-color: transparent; /* ← fundo transparente */
-    color: rgb(200, 160, 15);
+    color: #b89720;
     border: none;
     cursor: pointer;
     z-index: 1001;

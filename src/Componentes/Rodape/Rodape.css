@@ -31,7 +31,7 @@
       }
       
     .footer .social-icons a:hover {
-        color: #cd8200;
+        color: #b89720;
       }
 
     .footer-logo {
@@ -133,7 +133,7 @@
   align-items: center;         /* Centraliza na vertical */
   gap: 10px;
   color: #000000;
-  background-color: #b88517;
+  background-color: #b89720;
   padding: 10px 20px;
   border-radius: 8px;
   font-size: 18px;

@@ -10,7 +10,7 @@ const Rodape = () => {
       <div className="footer-content">
         <div className="footer-logo">
           <h4>PI</h4>
-          <img src="Assets/img/ARTE_E_FREQUENCIA_TESTE.png" alt="Logo" />
+          <img src="Assets/img/Logo_AF.png" alt="Logo" />
         </div>
         <div className="footer-info">
           <p>Acessem nossas redes sociais e conheçam de perto os nossos programas.</p>
