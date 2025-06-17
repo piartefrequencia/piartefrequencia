@@ -49,6 +49,7 @@ function MenuLateral() {
                 <li><a href="/missao">Nossa Missão</a></li>
                 <li><a href="/nossos-colaboradores">Nossos Colaboradores</a></li>
                 <li><a href="/galeria">Galeria de Imagens e Vídeos</a></li>
+                <li><a href="/galeria-partituras">Biblioteca de Partituras</a></li>
               </ul>
             )}
           </li>

@@ -7,6 +7,7 @@ import Home from './Paginas/Home';
 import Missao from './Paginas/Missao';
 import Equipe from './Paginas/Equipe';
 import Galeria from './Paginas/Galeria';
+import GaleriaPart from './Paginas/Galeria/GaleriaPart';
 import FormCadAluno from './Componentes/Formulario/FormCadAluno';
 import FormCadColaborador from './Componentes/Formulario/FormCadColaborador';
 import CadUser from './Componentes/Login/CadUser';
@@ -32,6 +33,8 @@ function App() {
           <Route path="/percussao" element={<Percussao />} />
           <Route path="/instrumental" element={<Instrumental />} />
           <Route path="/danca" element={<Danca />} />
+          <Route path="/galeria-partituras" element={<GaleriaPart />}
+/>
         </Routes>
       </Router>
     );
