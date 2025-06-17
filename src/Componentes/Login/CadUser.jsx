@@ -85,6 +85,7 @@ function CadUser() {
             required
           >
             <option value="Adm">Administrador</option>
+            <option value="Aluno">Aluno</option>
             <option value="Colaborador">Colaborador</option>
           </select>
         </label>

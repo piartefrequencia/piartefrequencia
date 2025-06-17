@@ -12,6 +12,9 @@ export const AuthProvider = ({ children }) => {
     } else if (usuario === 'colaborador' && senha === '1234') {
       setUser({ usuario: 'colaborador', perfil: 'Colaborador' });
       return true;
+    } else if (usuario === 'aluno' && senha === '1234') {
+      setUser({ usuario: 'aluno', perfil: 'Aluno' });
+      return true;
     }
     return false;
   };

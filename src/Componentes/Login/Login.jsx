@@ -20,9 +20,13 @@ function Login() {
     }
   };
 
+  const handleFechar = () => {
+    navigate(-1); //Volta para página anterior
+  }
+
   return (
     <div className="login-container">
-      <h2>Login</h2>
+      <h2>Acesso Login</h2>
       {erro && <p className="erro">{erro}</p>}
       <form onSubmit={handleSubmit}>
         <label>Usuário:
@@ -41,8 +45,11 @@ function Login() {
             required 
           />
         </label>
-        <button type="submit">Entrar</button>
+        <button type="submit" className="btn-entrar">ENTRAR</button>
+        <button type="button" className="btn-fechar" onClick={handleFechar}>FECHAR</button>
       </form>
+      {erro && <p style={{ color: 'red' }}
+      >{erro}</p>}
     </div>
   );
 }

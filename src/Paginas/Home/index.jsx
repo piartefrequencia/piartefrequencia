@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import MenuLateral from '../../Componentes/MenuLateral';
+import MenuBar from '../../Componentes/MenuBar/NavBar';
 import Rodape from '../../Componentes/Rodape';
 import Carousel from '../../Componentes/Carousel';
 import Cabecalho from '../../Componentes/Cabecalho';
@@ -10,6 +11,7 @@ function Home() {
       <MenuLateral />
       <Cabecalho />
         <main className="home-heading">
+        <MenuBar />
           <h2>
             Bem-vindos ao Arte & Frequência!
           </h2>
@@ -20,7 +22,7 @@ function Home() {
           </section>
         </main>
         <div className="container mt-4">
-          <Carousel />
+         <Carousel />
         <div className="mt-4">
          
         </div>

@@ -1,0 +1,88 @@
+.menu-bar-horizontal {
+  background-color: #000000;
+  border-top: 2px solid #c99b3e;
+  /*border-bottom: 2px solid #ff0000;*/
+  padding: 10px 0;
+}
+
+.menu-bar-lista {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar-lista li {
+  position: relative;
+}
+
+.menu-bar-lista button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu-bar-lista button:hover {
+  color: #b89720;
+}
+
+.menu-bar-lista ul li:hover {
+  background-color: #7700008d;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.submenu-horizontal {
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  background-color: #000000;
+  border: 1px solid #cccccc00;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  z-index: 1000;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.submenu-horizontal li {
+  margin: 5px 0;
+}
+
+.submenu-horizontal a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.submenu-horizontal a:hover {
+  color: #c99b3e;
+}
+
+/* Botões */
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-voltar {
+  background-color: #555;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  flex: 1;
+  transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+  background-color: #777;
+}

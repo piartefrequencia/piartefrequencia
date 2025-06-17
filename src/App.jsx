@@ -16,9 +16,12 @@ import Musicalizacao from './Paginas/Oficinas/Musicalizacao';
 import Percussao from './Paginas/Oficinas/Percussao';
 import Instrumental from './Paginas/Oficinas/Instrumental';
 import Danca from './Paginas/Oficinas/Danca';
+import { AuthProvider } from './Context/AuthContext';
 
 function App() {
   return (
+    <>
+    <AuthProvider>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -33,10 +36,11 @@ function App() {
           <Route path="/percussao" element={<Percussao />} />
           <Route path="/instrumental" element={<Instrumental />} />
           <Route path="/danca" element={<Danca />} />
-          <Route path="/galeria-partituras" element={<GaleriaPart />}
-/>
+          <Route path="/galeria-partituras" element={<GaleriaPart />} />
         </Routes>
       </Router>
+      </AuthProvider>
+      </>
     );
 }
 

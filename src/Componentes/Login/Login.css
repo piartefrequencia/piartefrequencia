@@ -30,16 +30,28 @@
     justify-content: space-between;
   }
   
-  .botoes button {
+  .btn-entrar {
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
-    background-color: #007bff;
-    color: white;
+    background-color: #e0c65b;
+    color: rgb(0, 0, 0);
     cursor: pointer;
   }
   
-  .botoes button:hover {
-    background-color: #0056b3;
+  .btn-entrar:hover {
+    background-color: #18d5128e;
+  }
+
+  .btn-fechar {
+    background-color: #e0c65b;
+    border-radius: 8px;
+    border-color: none;
+    color: rgb(0, 0, 0);
+    margin-top: 10px
   }
   
+  .btn-fechar:hover {
+    background-color: #cc0000ce;
+    border-radius: 8px;
+  }
