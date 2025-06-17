@@ -10,39 +10,38 @@ function Equipe() {
 
   const colaboradores = [
     {
-      src: '/Assets/img/Galery/Galery_00001.jpeg',
+      src: '/Assets/img/Colaboradores/Alexsandra_0001.jpg',
       nome: 'Alexsandra Barretto',
       funcao: 'Presidente da Instituição',
     },
     {
-      src: '/Assets/img/Galery/Galery_00002.jpg',
+      src: '/Assets/img/Colaboradores/Carlos_Barretto_0001.jpg',
       nome: 'Carlos Barretto',
       funcao: 'Vice-presidente da Instituição',
     },
     {
-      src: '/Assets/img/Galery/Galery_00003.jpg',
-      nome: 'Nome',
-      funcao: 'Instrutor de Percussão',
-    },
-    {
-      src: '/Assets/img/Galery/Galery_00004.jpg',
+      src: '/Assets/img/Colaboradores/Irvi_Tavares_0001.jpg',
       nome: 'Irvi Tavares',
       funcao: 'Diretor Geral e Prof. de Prática Instrumental',
     },
     {
-      src: '/Assets/img/Galery/Galery_00001.jpeg',
+      src: '/Assets/img/Colaboradores/Clodoaldo_0001.jpg',
       nome: 'Clodoaldo Vicente',
       funcao: 'Professor de Música e Maestro',
+    },
+    {src: '/Assets/img/Galery/Galery_00003.jpg',
+      nome: 'Nome',
+      funcao: 'Instrutor de Percussão',
     },
     {
       src: '/Assets/img/Galery/Galery_00002.jpg',
       nome: 'Nome',
-      funcao: 'Coordenadora de Dança',
+      funcao: 'Instrutor(a) de Dança',
     },
     {
       src: '/Assets/img/Galery/Galery_00003.jpg',
       nome: 'Nome',
-      funcao: 'Instrutor de Percussão',
+      funcao: 'Instrutor de Graves',
     },
     {
       src: '/Assets/img/Galery/Galery_00004.jpg',

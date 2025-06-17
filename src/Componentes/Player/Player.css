@@ -29,3 +29,7 @@
 .footer-player .player input[type="range"] {
   width: 100px;
 }
+
+.btn-volume svg {
+  color:#f1a71e;
+}

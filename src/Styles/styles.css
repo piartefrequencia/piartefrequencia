@@ -160,7 +160,7 @@ footer {
   cursor: pointer;
 }
 
-#volumeSlider {
+.volumeSlider {
   width: 100px;
   accent-color: rgb(142, 102, 23);
   cursor: pointer;
