@@ -434,7 +434,7 @@ function FormCadAluno() {
 
         <div className="botoes">
           <button type="submit" className="btn-salvar">SALVAR</button>
-          <button type="button" className="btn-voltar" onClick={handleVoltar}>VOLTAR</button>
+          <button type="button" className="btn-voltar" onClick={handleVoltar}>FECHAR</button>
         </div>
       </form>
     </div>
