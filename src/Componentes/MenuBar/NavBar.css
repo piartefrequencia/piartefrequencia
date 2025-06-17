@@ -1,14 +1,14 @@
 .menu-bar-horizontal {
   background-color: #000000;
-  border-top: 2px solid #b89720;
-  /*border-bottom: 2px solid #ff0000;*/
-  padding: 10px 0;
+  border-top: 2px solid #ba0000;
+  border-bottom: 2px solid #b89720;
+  padding: 10px;
 }
 
 .menu-bar-lista {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 100px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -29,6 +29,8 @@
 
 .menu-bar-lista button:hover {
   color: #b89720;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .menu-bar-lista ul li:hover {
