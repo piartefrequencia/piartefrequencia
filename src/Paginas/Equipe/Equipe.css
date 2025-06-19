@@ -37,7 +37,7 @@
   transform: scale(1.05);
 }
 
-.colaborador .info {
+.colaborador.info {
   margin-top: 8px;
   text-align: center;
   color: #ccc;
@@ -131,5 +131,5 @@
 }
 
 .botao-voltar-galeria:hover {
-  background-color: #d43f37;
+  background-color: #000000;
 }

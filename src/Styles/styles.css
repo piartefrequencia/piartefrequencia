@@ -1,5 +1,4 @@
 body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -11,17 +10,17 @@ body {
 }
 
 main h2 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 50px;
   flex: 500;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
   padding: 20px;
   text-align: center;
-  text-shadow: -1px -1px 0 rgb(255, 255, 255);
+  border-radius: 10px;
+  -webkit-text-stroke: 1px black;
 }
 
 main p {
-  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 30px;
   border-width: 2cm;
@@ -38,44 +37,6 @@ footer {
   padding: 10px;
 }
 
-/*.carousel {
-  width: 800px;
-  height: 450px;
-  margin: 20px auto;
-  overflow: hidden;
-  position: relative;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
-}
-
-.carousel-images {
-  display: flex;
-  width: 100%;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-images img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.carousel-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.carousel-button.left { left: 10px; }
-.carousel-button.right { right: 10px; }*/
-
 #botaoMenu {
   font-size: 30px;
   position: fixed;
@@ -91,6 +52,7 @@ footer {
 
 #menuLateral {
   height: 100%;
+  font-family: Franklin Gothic Medium;
   width: 0;
   position: fixed;
   z-index: 1000;
@@ -104,7 +66,7 @@ footer {
 
 #menuLateral a {
   padding: 10px 20px;
-  text-decoration: none;
+  font-family: Franklin Gothic Medium;
   font-size: 20px;
   color: white;
   display: block;
@@ -115,101 +77,7 @@ footer {
   background-color: #575757;
 }
 
-.social-icons {
-  margin-top: 10px;
-}
-
-.social-icons a {
-  margin: 0 10px;
-  display: inline-block;
-}
-
-.social-icons img {
-  width: 30px;
-  height: 30px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.social-icons img:hover {
-  transform: scale(1.2);
-}
-
-/* CONTROLES DE MÚSICA */
-#music-controls-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 8px;
-  border-radius: 0 0 0 10px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 999;
-}
-
-#music-controls-wrapper:hover {
-  opacity: 1;
-}
-
-#music-controls button {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 18px;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.volumeSlider {
-  width: 100px;
-  accent-color: #b89720;
-  cursor: pointer;
-  height: 24px;
-}
-
-#volumeSlider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  background: black;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-
-.audio-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #b89720;
-  /*background-image: url('img/fundo_0001.jpg');*/
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.overlay-container::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: -1;
-}
-
-.audio-button:hover {
-  background-color: #ffffff00;
-}
-
-  #botaoMenu {
+#botaoMenu {
     font-size: 30px;
     position: fixed;
     top: 20px;
@@ -243,15 +111,6 @@ footer {
         cursor: pointer;
       }
       
-      /*CARROSSEL*/  
-      .carousel {
-        width: 800px;
-        height: 450px;
-        margin: 20px auto;
-        overflow: hidden;
-        position: relative;
-        border-radius: 10px;
-        box-shadow: 0 0 0px rgba(0, 0, 0, 0);
-      }
+      
       
       

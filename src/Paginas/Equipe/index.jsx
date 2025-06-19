@@ -29,22 +29,22 @@ function Equipe() {
       nome: 'Clodoaldo Vicente',
       funcao: 'Professor de Música e Maestro',
     },
-    {src: '/Assets/img/Galery/Galery_00003.jpg',
+    {src: '/Assets/img/Colaboradores/Fulano.png',
       nome: 'Nome',
       funcao: 'Instrutor de Percussão',
     },
     {
-      src: '/Assets/img/Galery/Galery_00002.jpg',
+      src: '/Assets/img/Colaboradores/Fulano.png',
       nome: 'Nome',
       funcao: 'Instrutor(a) de Dança',
     },
     {
-      src: '/Assets/img/Galery/Galery_00003.jpg',
+      src: '/Assets/img/Colaboradores/Fulano.png',
       nome: 'Nome',
       funcao: 'Instrutor de Graves',
     },
     {
-      src: '/Assets/img/Galery/Galery_00004.jpg',
+      src: '/Assets/img/Colaboradores/Fulano.png',
       nome: 'Nome',
       funcao: 'Educadora Infantil',
     }

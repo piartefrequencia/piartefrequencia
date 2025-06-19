@@ -2,7 +2,7 @@
   background-color: #000000;
   border-top: 2px solid #ba0000;
   border-bottom: 2px solid #b89720;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 .menu-bar-lista {
@@ -34,7 +34,7 @@
 }
 
 .menu-bar-lista ul li:hover {
-  background-color: #7700008d;
+  background-color: #770000;
   border-radius: 5px;
   padding: 5px;
 }
@@ -43,14 +43,15 @@
   position: absolute;
   top: 100%;
   left: 20px;
+  width: 248px;
   background-color: #000000;
   border: 1px solid #cccccc00;
-  list-style: none;
   padding: 10px;
   margin: 0;
   z-index: 1000;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  font-weight: bold;
 }
 
 .submenu-horizontal li {
@@ -82,7 +83,7 @@
   cursor: pointer;
   font-weight: bold;
   flex: 1;
-  transition: background-color 0.3s;
+  transition: background-color 0.1s;
 }
 
 .btn-voltar:hover {

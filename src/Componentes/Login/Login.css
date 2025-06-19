@@ -21,8 +21,8 @@
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid gray;
+    border-radius: 10px;
+    border: 2px solid gray;
   }
   
   .botoes {
@@ -33,7 +33,7 @@
   .btn-entrar {
     padding: 8px 16px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #e0c65b;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -44,9 +44,11 @@
   }
 
   .btn-fechar {
+    padding: 8px 16px;
     background-color: #e0c65b;
-    border-radius: 8px;
+    border-radius: 10px;
     border-color: none;
+    border: none;
     color: rgb(0, 0, 0);
     margin-top: 10px
   }

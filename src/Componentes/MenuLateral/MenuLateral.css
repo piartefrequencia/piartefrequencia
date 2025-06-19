@@ -18,18 +18,18 @@
 .botao-hamburguer:hover,
 .botao-hamburguer.ativo {
   background-color: transparent;
-  color: #fff;
+  color: #ba0000;
 }
 
 /* Menu lateral */
 .menu-lateral {
   position: absolute;
+  font-family: none;
   top: 0;
   left: -250px;
   width: 250px;
   height: 100%;
-  background-color: #101010;
-  color: #b89720;
+  background-color: #000000;
   padding: 100px 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   transition: left 0.3s ease;
@@ -39,7 +39,12 @@
 
 .menu-lateral.aberto {
   left: 0;
-  font-family: Franklin Gothic Medium;
+  
+}
+
+.menu-lateral.submenu {
+  left: 0;
+  
 }
 
 /* Itens do menu */
@@ -51,6 +56,7 @@
 }
 
 .menu-lateral ul li {
+  font-family: Franklin Gothic Medium;
   padding: 12px 20px;
   cursor: pointer;
   color: #fff;
@@ -69,7 +75,7 @@
   position: absolute;
   left: 100%;
   top: 0;
-  background-color: #101010;
+  background-color: #000000;
   min-width: 180px;
   border-radius: 10px;
 }
@@ -103,6 +109,7 @@
 
 .menu-lateral a:hover,
 .menu-lateral button:hover {
+  font-family: Franklin Gothic Medium;
   color: #b89720;
 }
 
@@ -110,5 +117,5 @@
 /* Mantém fixo com scroll */
 body {
   margin: 0;
-  font-family: Arial, negrito;
+  font-family: Franklin Gothic Medium;
 }

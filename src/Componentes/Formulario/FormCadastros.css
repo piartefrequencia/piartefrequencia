@@ -1,7 +1,7 @@
 .form-container {
   max-width: 700px;
   margin: 80px auto;
-  background-color: #222;
+  background-color: #000000;
   color: #fff;
   padding: 30px;
   border-radius: 10px;
@@ -10,7 +10,7 @@
 
 h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
   color: #b89720;
 }
 
@@ -95,7 +95,7 @@ input, select {
   display: grid;
   grid-template-columns: 1fr;
   gap: 8px;
-  background-color: #333;
+  background-color: #212121;
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 20px;
