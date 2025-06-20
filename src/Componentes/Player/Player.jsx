@@ -3,11 +3,11 @@ import { FaPlay, FaPause, FaForward, FaBackward, FaStop, FaVolumeUp, FaVolumeMut
 
 const Player = () => {
   const playlist = [
-    { nome: 'Isaac Rodrigues', arquivo: '/Assets/audio/Isaac_Rodrigues.mp3' },
-    { nome: 'Cisne Branco', arquivo: '/Assets/audio/Cisne_Branco.mp3' },
-    { nome: 'The Avengers', arquivo: '/Assets/audio/The_Avengers.mp3' },
-    { nome: 'Canção da Infantaria', arquivo: '/Assets/audio/Cancao_da_Infantaria.mp3' },
-    { nome: 'Suite Nordestina', arquivo: '/Assets/audio/Suite_Nordestina.mp3' },
+    { nome: 'Isaac Rodrigues', arquivo: process.env.PUBLIC_URL + '/Assets/audio/Isaac_Rodrigues.mp3' },
+    { nome: 'Cisne Branco', arquivo: process.env.PUBLIC_URL + '/Assets/audio/Cisne_Branco.mp3' },
+    { nome: 'The Avengers', arquivo: process.env.PUBLIC_URL + '/Assets/audio/The_Avengers.mp3' },
+    { nome: 'Canção da Infantaria', arquivo: process.env.PUBLIC_URL + '/Assets/audio/Cancao_da_Infantaria.mp3' },
+    { nome: 'Suite Nordestina', arquivo: process.env.PUBLIC_URL + '/Assets/audio/Suite_Nordestina.mp3' },
   ];
 
   const [currentTrack, setCurrentTrack] = useState(0);
