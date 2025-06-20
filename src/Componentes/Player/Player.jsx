@@ -17,13 +17,31 @@ const Player = () => {
 
   const audioRef = useRef(null);
 
-  const togglePlayPause = () => {
+  /*const togglePlayPause = () => {
     const audio = audioRef.current;
     if (!audio.src) {
       audio.src = playlist[currentTrack].arquivo;
     }
     if (audio.paused) {
       audio.play();
+      setIsPlaying(true);
+    } else {
+      audio.pause();
+      setIsPlaying(false);
+    }
+  };*/
+
+  const togglePlayPause = () => {
+    const audio = audioRef.current;
+  
+    if (!audio.src || audio.src !== window.location.origin + playlist[currentTrack].arquivo) {
+      audio.src = playlist[currentTrack].arquivo;
+    }
+  
+    if (audio.paused) {
+      audio.play().catch((err) => {
+        console.error('Erro ao reproduzir:', err);
+      });
       setIsPlaying(true);
     } else {
       audio.pause();
@@ -38,7 +56,7 @@ const Player = () => {
     setIsPlaying(false);
   };
 
-  const proximaMusica = () => {
+  /*const proximaMusica = () => {
     const nextTrack = (currentTrack + 1) % playlist.length;
     setCurrentTrack(nextTrack);
   };
@@ -46,7 +64,20 @@ const Player = () => {
   const musicaAnterior = () => {
     const prevTrack = (currentTrack - 1 + playlist.length) % playlist.length;
     setCurrentTrack(prevTrack);
+  };*/
+
+  const proximaMusica = () => {
+    const nextTrack = (currentTrack + 1) % playlist.length;
+    setCurrentTrack(nextTrack);
+    setIsPlaying(false); // <-- Evita autoplay no mobile
   };
+  
+  const musicaAnterior = () => {
+    const prevTrack = (currentTrack - 1 + playlist.length) % playlist.length;
+    setCurrentTrack(prevTrack);
+    setIsPlaying(false); // <-- Evita autoplay no mobile
+  };
+  
 
   const toggleMute = () => {
     setMuted(!muted);
@@ -56,7 +87,7 @@ const Player = () => {
     const audio = audioRef.current;
     if (isPlaying) {
       audio.src = playlist[currentTrack].arquivo;
-      audio.play();
+      
     }
 // eslint-disable-next-line
   }, [currentTrack]);
