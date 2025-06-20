@@ -13,7 +13,7 @@ const Rodape = () => {
           <img src="Assets/img/Logo_AF.png" alt="Logo" />
         </div>
         <div className="footer-info">
-          <p>Acessem nossas redes sociais e conheçam de perto os nossos programas.</p>
+          <p>Acessem nossas redes sociais e conheçam de perto o nosso projeto.</p>
         </div>
         <div className="social-icons">
           <a href="https://www.facebook.com/procidadania.silva" target="_blank" rel="noreferrer">
@@ -41,9 +41,7 @@ const Rodape = () => {
         <div className="footer-player">
           <Player />
         </div>
-        <div className="footer-copy">
-          &copy; 2025 PI Arte & Frequência - Todos os direitos reservados.
-        </div>
+        
     </div>
       <div className="logos-apoio-nome">
       <p>APOIO:</p>
@@ -59,6 +57,9 @@ const Rodape = () => {
           <img src="Assets/img/Logo_Apoio/HVL.png" alt="Logo Apoio 3" />
         </a>
       </div>
+      <div className="footer-copy">
+          &copy; 2025 PI Arte & Frequência - Todos os direitos reservados.
+        </div>
     </footer>
   );
 };

@@ -33,3 +33,21 @@
 .btn-volume svg {
   color:#b89720;
 }
+
+  /* CONTROLES DE MÚSICA */
+.track-info {
+  display: flex;               /* Corrigido */
+  align-items: center;         /* Centraliza na vertical */
+  gap: 10px;
+  color: #000000;
+  background-color: #b89720;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  justify-content: flex-start;
+}
+
+.track-info span {
+  font-weight: bold;
+  margin-left: 20px;
+}

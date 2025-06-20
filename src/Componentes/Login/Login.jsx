@@ -45,7 +45,18 @@ function Login() {
             required 
           />
         </label>
-        <button type="submit" className="btn-entrar">ENTRAR</button>
+
+        {/* Link de recuperação de senha */}
+        <div className="recuperar-senha">
+          <a 
+            href="mailto:irvitavaresoficial27@gmail.com?subject=Recuperação de login/senha"
+            className="link-ajuda"
+          >
+            Lembrar usuário e/ou senha
+          </a>
+        </div>
+
+                <button type="submit" className="btn-entrar">ENTRAR</button>
         <button type="button" className="btn-fechar" onClick={handleFechar}>FECHAR</button>
       </form>
       {erro && <p style={{ color: 'red' }}

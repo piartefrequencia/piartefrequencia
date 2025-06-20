@@ -137,7 +137,7 @@ function FormCadColaborador() {
               name="dataNascimento" 
               maxLength="10"
               placeholder="dd/mm/aaaa"
-              value={formData.DataNascimento}
+              value={formData.dataNascimento}
               onChange={handleData}
               required 
             />
@@ -154,7 +154,7 @@ function FormCadColaborador() {
         </div>
 
         <label>Área de Instrução:
-          <input type="text" name="instrucao" value={formData.instrucao} onChange={handleChange} required />
+          <input type="text" name="instrucao" value={formData.areaInstrucao} onChange={handleChange} required />
         </label>
 
         <label>Formação:

@@ -79,8 +79,7 @@ function Galeria() {
       </div>
       {/* ✅ Botão agora no fim da galeria */}
       <div className="fechar-container">
-        <button className="botao-voltar-galeria" onClick={() => navigate(-1)}>
-           FECHAR
+        <button className="botao-voltar-galeria" onClick={() => navigate(-1)}>FECHAR
         </button>
       </div>
     </div>

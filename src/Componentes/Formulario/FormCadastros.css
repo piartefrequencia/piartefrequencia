@@ -135,12 +135,15 @@ input, select {
 @media (max-width: 600px) {
   .linha {
     flex-direction: row;
+    flex-direction: column; /* Garante que os campos fiquem um abaixo do outro no mobile */
+    }
+    
   }
 
   .botoes {
     flex-direction: column;
   }
-}
+
 
 .label-extra {
   margin-left: 20px;

@@ -5,6 +5,7 @@
     margin: 100px auto;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
   }
   
   .login-container h2 {
@@ -57,3 +58,21 @@
     background-color: #cc0000ce;
     border-radius: 8px;
   }
+
+  .recuperar-senha {
+    text-align: left;
+    margin: 8px 0 16px;
+    text-align: center;
+  }
+  
+  .link-ajuda {
+    font-size: 14px;
+    color: #b79820;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .link-ajuda:hover {
+    color: #ae0d0d;
+  }
+  
